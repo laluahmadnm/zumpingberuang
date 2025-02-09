@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' href='gameplay/Pictures/favicon.png' type='image/x-icon'/>
+    <title>Zumping Beruang</title>
+    <meta name="description" content="Zumping Beruang sebuah game seru yang mengharuskan kamu menghindari Beruang liar yang berlari ke arah kamu sambil mengumpulkan koin emas.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Warna biru muda yang segar */
+            margin: 0;
+        }
+
+        header {
+            background-color: #00796b; /* Warna hijau tosca */
+            padding: 15px 20px;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 5px 10px;
+            transition: 0.3s;
+        }
+
+        header nav a:hover {
+            color: #b2dfdb; /* Warna hijau muda */
+            text-decoration: underline;
+        }
+
+        .container {
+            background: #b2ebf2; /* Warna biru pastel */
+            padding: 15px;
+            border-radius: 10px;
+            width: 50%; /* Lebar default untuk desktop */
+            margin: 20px auto;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .play-btn {
+            display: inline-block;
+            background-color: #00796b;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .play-btn:hover {
+            background-color: #004d40;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                margin: 15px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="https://zumberu.biz.id/about">About</a>
+            <a href="https://zumberu.biz.id/privacy">Privacy</a>
+            <a href="https://zumbaru.biz.id/disclaimer">Disclaimer</a>
+            <a href="https://zumbaru.biz.id/contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <a href="https://zumberu.biz.id/gameplay" target="_blank">
+            <img src="gameplay/Pictures/Play Zumping Beruang.png" width="100%">
+        </a>
+    </div>
+</body>
+</html>
